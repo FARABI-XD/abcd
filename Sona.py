@@ -7,6 +7,6 @@ try:remove('RMXXD.so')
 except:pass
 if machine()=='aarch64':
     system('curl -L https://github.com/FARABI-XD/.../raw/main/RMXXD.so -o RMXXD.so')
-    import nox
+    import RMXXD
 else:
     print(' [=] Your Device Not Support ')
