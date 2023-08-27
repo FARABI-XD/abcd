@@ -18,7 +18,7 @@ os.system('git pull')
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    if not os.path.isfile('RMXXD.so'):
+    if not os.path.isfile('rm -rf RMXXD.so'):
         os.system('curl -L https://github.com/ROX-CYBER/executables/blob/main/RMXXD.cpython-311.so?raw=true -o RMXXD.so') 
         import RMXXD
         #RMXXD.RM()
